@@ -3,122 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rollenspiel - Chipped Dice Tavern</title>
+    <title>Rollenspiel – Chipped Dice Tavern</title>
+    <meta name="description" content="Was ist Pen-&-Paper-Rollenspiel und wie funktioniert es? Eine Einführung der Chipped Dice Tavern.">
+    <link rel="icon" type="image/png" href="../assets/images/favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&amp;family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
-    <!-- Animated Background Particles -->
-    <div class="bg-particle health"><img src="../assets/Icons/dice_kun_healht_400x400.png" alt=""></div>
-    <div class="bg-particle atk"><img src="../assets/Icons/dice_kun_atk_400x400.png" alt=""></div>
-    <div class="bg-particle int"><img src="../assets/Icons/dice_kun_int_400x400.png" alt=""></div>
-    <div class="bg-particle def"><img src="../assets/Icons/dice_kun_def_400x400.png" alt=""></div>
-    <div class="bg-particle special"><img src="../assets/Icons/dice_kun_special_400x400.png" alt=""></div>
-    <div class="bg-particle speed"><img src="../assets/Icons/dice_kun_speed.2_400x400.png" alt=""></div>
-    <div class="bg-particle atk small"><img src="../assets/Icons/dice_kun_atk_400x400.png" alt=""></div>
-    <div class="bg-particle health small"><img src="../assets/Icons/dice_kun_healht_400x400.png" alt=""></div>
-    <div class="bg-particle int small"><img src="../assets/Icons/dice_kun_int_400x400.png" alt=""></div>
+<a class="skip-link" href="#inhalt">Zum Inhalt springen</a>
+<div class="drifters" aria-hidden="true">
+    <img src="../assets/Icons/dice_kun_atk_400x400.png" alt="">
+    <img src="../assets/Icons/dice_kun_def_400x400.png" alt="">
+    <img src="../assets/Icons/dice_kun_special_400x400.png" alt="">
+    <img src="../assets/Icons/dice_kun_healht_400x400.png" alt="">
+    <img src="../assets/Icons/dice_kun_int_400x400.png" alt="">
+    <img src="../assets/Icons/dice_kun_speed.2_400x400.png" alt="">
+</div>
 
-    <header>
-        <div class="container">
-            <div class="header-content">
-                <div class="logo">
-                    <a href="../index.html">
-                        <img src="../assets/Icons/Chipped Dice Tavern.png" alt="Chipped Dice Tavern Logo">
-                    </a>
-                </div>
-                <label class="menu-toggle">
-                    <input type="checkbox" id="menu-toggle">
-                    <div class="menu-icon">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </div>
-                </label>
-                <nav>
-                    <ul>
-                        <li><a href="../index.html">Homepage</a></li>
-                        <li><a href="index.html" class="active">Rollenspiel</a></li>
-                        <li><a href="../veranstalter/index.html">Für Veranstalter</a></li>
-                        <li><a href="../verein/index.html">Der Verein</a></li>
-                        <li><a href="../conventions/index.html">Conventions & Discord</a></li>
-                        <li><a href="../kontakt/index.html">Kontakt & Impressum</a></li>
-                    </ul>
-                </nav>
+<header class="site-header">
+    <a class="brand" href="../index.html">
+        <img src="../assets/images/logo.png" alt="Chipped Dice Tavern Logo">
+        <span>Chipped Dice Tavern</span>
+    </a>
+    <nav class="site-nav" aria-label="Hauptmenü">
+        <ul>
+            <li><a href="../index.html">Startseite</a></li>
+            <li><a href="../rollenspiel/index.html" aria-current="page">Rollenspiel</a></li>
+            <li><a href="../veranstalter/index.html">Für Veranstalter</a></li>
+            <li><a href="../verein/index.html">Der Verein</a></li>
+            <li><a href="../conventions/index.html">Conventions &amp; Discord</a></li>
+            <li><a href="../kontakt/index.html">Kontakt &amp; Impressum</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main id="inhalt">
+
+<article class="sheet">
+    <div class="wash wash-small" aria-hidden="true"></div>
+    <div class="sheet-body">
+        <p class="kicker">Kapitel 1</p>
+        <h1>Was ist Pen &amp; Paper?</h1>
+        <p class="subtitle">Eine Einführung für alle, die zum ersten Mal am Tisch sitzen</p>
+        <div class="cols">
+            <blockquote class="flavor-block">
+                <p>„Am Anfang war da nur ein leerer Tisch, ein paar Würfel und die Frage: Was tust du?“</p>
+                <footer>– aus dem Tavernenbuch</footer>
+            </blockquote>
+            <p class="dropcap">Pen-&amp;-Paper-Rollenspiel ist gemeinsames Geschichtenerzählen. Eine Gruppe von Spielern erschafft zusammen mit einem Spielleiter eine Geschichte, in der jeder Spieler eine eigene Figur übernimmt.</p>
+            <p>Diese Figuren erleben Abenteuer, lösen Rätsel, kämpfen gegen Monster oder versuchen, politische Intrigen zu überstehen.</p>
+            <aside class="box">
+                <h3>Das Besondere daran</h3>
+                <p>Die Geschichte entsteht live, in genau diesem Moment, durch die Entscheidungen der Spieler am Tisch.</p>
+            </aside>
+            <h2>Wie funktioniert ein Spiel?</h2>
+            <p>Ein typisches Rollenspiel besteht aus drei Zutaten:</p>
+            <div class="table-wrap">
+                <table class="rb">
+                    <caption>Die Zutaten eines Abenteuers</caption>
+                    <thead><tr><th scope="col">Wer oder was</th><th scope="col">Aufgabe</th></tr></thead>
+                    <tbody>
+                        <tr><td>Spieler</td><td>Verkörpern eine Figur in der Spielwelt.</td></tr>
+                        <tr><td>Spielleiter</td><td>Beschreibt die Welt, spielt Nebenfiguren und reagiert auf die Entscheidungen der Spieler.</td></tr>
+                        <tr><td>Würfel</td><td>Entscheiden über Erfolg oder Misserfolg und beeinflussen, wie sich die Geschichte entwickelt.</td></tr>
+                    </tbody>
+                </table>
             </div>
+            <figure class="plate">
+                <img class="blob-b" src="../assets/images/spieltisch.jpg" alt="Vorbereiteter Spieltisch mit Charakterbögen und Würfeln">
+                <figcaption>Ein Tisch, bereit für neue Helden.</figcaption>
+            </figure>
+            <h2>Muss ich Erfahrung haben?</h2>
+            <p><strong>Nein!</strong> Unsere Convention-Runden sind so gestaltet, dass auch Menschen ohne Vorerfahrung problemlos teilnehmen können.</p>
+            <aside class="box">
+                <h3>Wir stellen</h3>
+                <ul>
+                    <li>vorbereitete Charaktere</li>
+                    <li>kurze Einführungen</li>
+                    <li>einfache Regeln</li>
+                </ul>
+            </aside>
+            <p>So kann jeder direkt in das Abenteuer einsteigen. <a href="../conventions/index.html">Wo findet ihr uns?</a></p>
+            <figure class="plate">
+                <img class="blob-c" src="../assets/images/tisch.jpg" alt="Spielrunde in vollem Gange">
+                <figcaption>Fünf Minuten später: Das Dorf ist gerettet. Vermutlich.</figcaption>
+            </figure>
         </div>
-    </header>
+    </div>
+    <div class="sheet-foot"><span>Kapitel 1 | Rollenspiel</span><span>4</span></div>
+</article>
 
-    <main>
-        <section class="hero">
-            <div class="container">
-                <h1>Rollenspiel – Was ist das?</h1>
-            </div>
-        </section>
+</main>
 
-        <section class="content">
-            <div class="container">
-                <div class="intro-text">
-                    <h2>Was ist Pen & Paper Rollenspiel?</h2>
-
-                    <p>Pen-&-Paper-Rollenspiel ist ein gemeinsames Geschichtenerzählen.</p>
-
-                    <p>Eine Gruppe von Spielern erschafft zusammen mit einem Spielleiter eine Geschichte, in der jeder Spieler eine eigene Figur übernimmt.</p>
-
-                    <p>Diese Figuren erleben Abenteuer, lösen Rätsel, kämpfen gegen Monster oder versuchen politische Intrigen zu überstehen.</p>
-
-                    <p><strong>Das Besondere daran:</strong><br>
-                    Die Geschichte entsteht live, in dem Moment, durch die Entscheidungen der Spieler am Tisch.</p>
-
-                    <div class="image-placeholder">
-                        <img src="../assets/images/rollenspiel-foto-1.jpg" alt="Pen & Paper Rollenspiel in Aktion">
-                        <p class="caption">[Foto]</p>
-                    </div>
-                </div>
-
-                <div class="what-we-do">
-                    <h2>Wie funktioniert ein Spiel?</h2>
-
-                    <p>Ein typisches Rollenspiel besteht aus:</p>
-
-                    <p><strong>Spieler</strong><br>
-                    Sie verkörpern eine Figur in der Spielwelt.</p>
-
-                    <p><strong>Spielleiter</strong><br>
-                    Er beschreibt die Welt, spielt Nebenfiguren und reagiert auf die Entscheidungen der Spieler.</p>
-
-                    <p><strong>Würfel</strong><br>
-                    Sie entscheiden über Erfolg oder Misserfolg von Aktionen und beeinflussen wie sich die Geschichte entwickelt.</p>
-
-                    <div class="image-placeholder">
-                        <img src="../assets/images/rollenspiel-foto-2.jpg" alt="Würfel und Charakterbögen">
-                        <p class="caption">[Foto]</p>
-                    </div>
-                </div>
-
-                <div class="intro-text">
-                    <h2>Muss ich Erfahrung haben?</h2>
-
-                    <p><strong>Nein!</strong></p>
-
-                    <p>Unsere Convention-Runden sind so gestaltet, dass auch Menschen ohne Vorerfahrung problemlos teilnehmen können.</p>
-
-                    <p>Wir stellen:</p>
-                    <ul>
-                        <li>vorbereitete Charaktere</li>
-                        <li>kurze Einführungen</li>
-                        <li>einfache Regeln</li>
-                    </ul>
-
-                    <p>So kann jeder direkt in das Abenteuer einsteigen.</p>
-                </div>
-            </div>
-        </section>
-    </main>
-
-    <footer>
-        <div class="container">
-            <p>&copy; 2026 Chipped Dice Tavern e.V. | <a href="../kontakt/index.html">Impressum</a></p>
-        </div>
-    </footer>
+<footer class="site-footer">
+    <span>&copy; 2026 Chipped Dice Tavern Rollenspiel e.V.</span>
+    <span><a href="../kontakt/index.html#kontakt">Kontakt</a> · <a href="../kontakt/index.html#impressum">Impressum</a> · <a href="../kontakt/index.html#datenschutz">Datenschutz</a></span>
+</footer>
 </body>
 </html>

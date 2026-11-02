@@ -1,43 +1,29 @@
-# Chipped Dice Tavern Website
+# Chipped Dice Tavern – Website
 
-Einfache, moderne Website für den Rollenspielverein Chipped Dice Tavern e.V.
+Website des Chipped Dice Tavern Rollenspiel e.V. im Stil eines Fantasy-Regelbuchs („Das Tavernenbuch“).
+Pures HTML/CSS, kein Build-Schritt nötig. Gehostet über GitHub Pages (siehe `CNAME`).
 
 ## Struktur
 
 ```
-chipped-dice-tavern-website/
-├── index.html                      (Hauptseite)
-├── assets/
-│   ├── css/
-│   │   └── style.css              (Gemeinsames Stylesheet)
-│   └── images/
-│       ├── logo-placeholder.svg   (Logo-Platzhalter)
-│       ├── foto-placeholder-1.jpg (Foto 1 Platzhalter)
-│       └── foto-placeholder-2.jpg (Foto 2 Platzhalter)
-├── rollenspiel/
-│   └── index.html                 (Unterseite Rollenspiel)
-├── veranstalter/
-│   └── index.html                 (Unterseite Für Veranstalter)
-├── verein/
-│   └── index.html                 (Unterseite Der Verein)
-├── conventions/
-│   └── index.html                 (Unterseite Conventions & Discord)
-└── kontakt/
-    └── index.html                 (Unterseite Kontakt & Impressum)
+index.html                  Startseite (Kapitel 1, Kapitel 2, Anhang A)
+rollenspiel/index.html      Was ist Pen & Paper?
+veranstalter/index.html     Angebot für Veranstalter
+verein/index.html           Der Verein & Vorstand
+conventions/index.html      Termine & Discord
+kontakt/index.html          Kontakt, Impressum, Datenschutz
+assets/css/style.css        Gemeinsames Stylesheet (Farben als CSS-Variablen oben)
+assets/images/              Komprimierte Fotos (max. 1400 px) + Logo + Favicon
+assets/Icons/               Logo-Original und Dice-Kun-Icons
 ```
 
-## Design
+## Pflege
 
-- **Farbschema**: Dunkle Tavern-Atmosphäre mit Gold- und Rot-Akzenten
-- **Responsive**: Funktioniert auf Desktop, Tablet und Mobile
-- **Einfach**: Pure HTML/CSS ohne JavaScript-Abhängigkeiten
+- **Termine ändern:** Tabelle „Kommende Reiseziele“ in `index.html` und `conventions/index.html`.
+- **Neue Fotos:** vorher auf max. ca. 1400 px Breite verkleinern und nach `assets/images/` legen.
+  Der Ordner `images/` (Rohfotos) ist per `.gitignore` vom Repo ausgeschlossen.
+- **Farben:** in `assets/css/style.css` unter `:root`.
 
-## Platzhalter ersetzen
+## Lokal ansehen
 
-1. **Logo**: Ersetze `assets/images/logo-placeholder.svg` mit dem echten Logo
-2. **Fotos**: Ersetze `foto-placeholder-1.jpg` und `foto-placeholder-2.jpg` mit echten Fotos
-3. In `style.css`: Entferne `display: none;` bei `.image-placeholder img` um Bilder anzuzeigen
-
-## Öffnen
-
-Öffne `index.html` direkt im Browser - keine Server-Installation nötig!
+`index.html` einfach im Browser öffnen.

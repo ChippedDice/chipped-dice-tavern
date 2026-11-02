@@ -1,6 +1,0 @@
-<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg">
-  <rect width="800" height="500" fill="#3a2517"/>
-  <rect x="50" y="50" width="700" height="400" fill="none" stroke="#c9a961" stroke-width="4" stroke-dasharray="10,5"/>
-  <text x="400" y="240" font-family="Arial, sans-serif" font-size="24" fill="#c9a961" text-anchor="middle">Spielszene Foto Platzhalter</text>
-  <text x="400" y="280" font-family="Arial, sans-serif" font-size="18" fill="#8b2e1f" text-anchor="middle">800 x 500 px</text>
-</svg>
